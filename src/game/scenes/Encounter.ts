@@ -8,7 +8,7 @@ import { Player } from "../entities/Player";
 import { VoidStar } from "../entities/VoidStar";
 import { SequenceManager } from "../SequenceManager";
 
-const PLAYER_DMG = 200;
+const PLAYER_DMG = 20;
 
 export class Encounter extends Scene {
   private player: Player;
