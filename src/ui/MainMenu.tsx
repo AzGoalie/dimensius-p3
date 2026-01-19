@@ -13,13 +13,14 @@ const MainMenu = ({ onPlay }: Props) => (
       <p className="text-slate-300 mb-6 leading-relaxed">
         <span className="text-blue-400 font-bold">WASD/Arrows</span> to move.
         <br />
-        <span className="text-yellow-400 font-bold">1-2-3</span> to input attack
-        sequence.
+        <span className="text-yellow-400 font-bold">1-2-3</span> to attack.
+        <br />
+        Avoid getting two stacks from the{" "}
+        <span className="text-purple-500 font-bold">rings</span>.
         <br />
         Hide in <span className="text-cyan-400 font-bold">Blue Orbs</span> when
-        Boss devours.
-        <br />
-        Avoid <span className="text-purple-500 font-bold">Black Holes</span>.
+        he casts devour and dodge the{" "}
+        <span className="text-blue-800 font-bold">Black Holes</span>.
       </p>
       <button
         onClick={onPlay}
